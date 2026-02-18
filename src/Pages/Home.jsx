@@ -8,13 +8,18 @@ import Location from '../components/Location'
 
 const Home = () => {
   return (
-    <div>
-        <Intro/>
+    <div className='Home'>
+       <div className="Home-page">
+         <Intro/>
         <Bride_Groom/>
         <Photo_Gallery/>
         <Location/>
+        <div className="Social-Footer">
         <Social_Share/>
         <Footer/>
+        </div>
+
+       </div>
     </div>
   )
 }

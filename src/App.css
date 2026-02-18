@@ -174,3 +174,210 @@ body{
   border: 2px solid maroon;
   color: #9b722a;
 }
+
+@media (min-width:768px) and (max-width:1024px){
+
+  body{
+    font-size:14px;
+  }
+
+  .Intro_Container{
+    height:auto;
+    padding:40px 20px;
+  }
+
+  .Bride img{
+    height:220px;
+    width:170px;
+  }
+
+  .Pics img{
+    max-height:350px;
+    padding:15px;
+  }
+
+  .Video-Player video{
+    height:auto;
+  }
+
+  .Footer-row{
+    gap:40px;
+  }
+
+}
+
+
+@media (min-width:1025px){
+
+  body{
+    font-size:16px;
+    width: 100%;
+  }
+  .Home{
+    width: 80%;
+  }
+  .Home-page{
+    padding-left: 700px;
+  }
+
+  /* Intro_Container */
+.Intro_Container{
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: url('assets/Images/BG_Theme2In.png');
+  background-size: cover;
+}
+
+.gold-text {
+  background: linear-gradient(
+    120deg,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  background-size: 300% 300%;
+  animation: goldShine 5s infinite linear;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes goldShine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+.text{
+  margin-top: 80px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.Gold_Line img{
+  height: 20px;
+}
+
+/* Bride and Groom */
+.Bride_Groom{
+  padding: 20px;
+  background: url('assets/Images/BG_Theme3In.png');
+  background-size: cover;
+}
+.Bride{
+  margin-top: 10px;
+  padding: 20px;
+  background: #570202b4;
+  border-radius: 10px;
+}
+.Bride img{
+  height: 250px;
+  width: 190px;
+  border: 2px solid burlywood;
+}
+
+/* Photo_Gallery */
+.Photo_Gallery{
+  padding: 20px;
+  background: url('assets/Images/BG_Theme4In.png');
+  background-size: cover;
+}
+.Pictures{
+    margin-top: 20px;
+}
+.gold-text{
+  background-color: #aa761c65;
+}
+.Pics img{
+   height: auto;
+   max-height: 400px;
+   width: 100%;
+   border-radius: 10px;
+   padding: 2px;
+   border: 2px solid burlywood;
+   padding: 20px;
+}
+
+.lg-react-element {
+}
+
+/* Video-Player */
+.Video-Player{
+    margin-top: 50px;
+    border: 2px solid burlywood;
+    padding: 12px;
+}
+.Video-Player video{
+    height: 120%;
+    width: 100%;
+}
+
+/* Location Section */
+.Location_Section{
+    margin-top: 0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url('assets/Images/BG_Theme4In.png');
+    background-size: cover;
+    padding: 20px;
+}
+.Iframe{
+    margin-top: 20px;
+    border: 2px solid burlywood;
+    padding: 20px;
+}
+
+.btn-location a{
+    padding: 10px 100px;
+    border: 2px solid bisque;
+    background-color: rgba(250, 189, 109, 0.055);
+    text-decoration: none;
+    color: maroon;
+}
+
+/* Social Share */
+.Social_Share{
+  height: 300px;
+  padding: 20px;
+}
+.Social_Share h2{
+  background-color: rgba(128, 0, 0, 0.355);
+  padding: 10px;
+  border-radius: 20px;
+}
+.Media{
+  margin-top: 10px;
+}
+
+/* Footer */
+.Footer{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+.Footer-row{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.Footer-row a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid maroon;
+  color: #9b722a;
+}
+
+.Social-Footer{
+  border: 3px solid #9b722a;
+}
+}
