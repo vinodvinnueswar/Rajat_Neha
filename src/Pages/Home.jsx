@@ -18,8 +18,10 @@ const Home = () => {
         <Social_Share/>
         <Footer/>
         </div>
-
        </div>
+         <p className="mobile-note">
+        This invitation is optimized for mobile , you have to experience on mobile 📱
+      </p>
     </div>
   )
 }
