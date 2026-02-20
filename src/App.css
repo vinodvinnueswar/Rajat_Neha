@@ -14,6 +14,7 @@ body{
   text-align: center;
   font-family: "Playpen Sans", cursive;
   font-size: 12px;
+   background: linear-gradient(90deg, rgba(155, 114, 42, 1) 0%, rgba(154, 121, 43, 1) 0%, rgba(168, 163, 29, 1) 0%, rgba(237, 221, 83, 1) 0%, rgba(207, 162, 58, 0.98) 0%, rgba(237, 221, 83, 1) 58%, rgba(237, 221, 83, 1) 81%); 
 }
 
 /* Intro_Container */
