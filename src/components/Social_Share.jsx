@@ -13,7 +13,7 @@ import {
 
 
 const Social_Share = () => {
-    const shareUrl = "https://ayesha-imran.vercel.app/";
+    const shareUrl = "https://rajat-neha.vercel.app/";
   const title = "You're invited to our wedding! 💍";
   return (
     <div className="Social_Share">
