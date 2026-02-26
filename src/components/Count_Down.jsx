@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 const Count_Down = () => {
- const weddingDate = new Date("2026-05-20T09:00:00").getTime();
+ const weddingDate = new Date("2026-06-30T11:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState({});
 
